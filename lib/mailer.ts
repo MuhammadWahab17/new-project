@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-const smtpHost = process.env.SMTP_HOST ?? "masterybrandambassador.com";
+const smtpHost = process.env.SMTP_HOST ?? "softechinc.ai";
 const smtpPort = Number(process.env.SMTP_PORT ?? "465");
 const smtpUser = process.env.SMTP_USER ?? "noreply@softechinc.ai";
 const smtpPass = process.env.SMTP_PASS ?? "y&S@!UoK83&S";
